@@ -3,7 +3,7 @@ services:
   database:
     image: "postgres"
     env_file:
-      - ./env/postgres.env
+      - ./env/database.env
     volumes:
       - postgres:/var/lib/postgresql/data
     restart: unless-stopped
