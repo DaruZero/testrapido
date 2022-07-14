@@ -4,8 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm init -y && \
-    npm i express pg body-parser querystring
+RUN npm i express pg body-parser querystring
 
 EXPOSE 80
 
